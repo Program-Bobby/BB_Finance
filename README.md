@@ -1,69 +1,69 @@
 # Disclaimer
 ***This project and its source code should be used for educational purposes only.***
-***A fictional names "BB-Finance", "BB-Finance", "BB-Finance", "BB-Finance", "BB-Finance", "BB-Finance", "BB-Finance", "BB-Finance" as far as fictional bank logos and mottos have been used for illustration purpose only.***
+***A fictional names "Ebank", "E-bank", "Ebanka", "E-banka", "EBANKA", "EBANK", "E-BANKA", "E-BANK" as far as fictional bank logos and mottos have been used for illustration purpose only.***
 
-# BB-Finance-Web-App
+# Ebank-Web-App
 This is a web application for online banking with all essential features. It allows registered users to manage their bank accounts, transfer funds, get a list of all past transactions, as well as to pay their utility bills.  
 
 # User interface pictures
 - Sign Up page  
 
-  ![signup](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/signup.PNG)  
+  ![signup](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/signup.PNG)  
   
 - Log in page  
 
-  ![login1](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/login1.PNG)  
+  ![login1](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/login1.PNG)  
   
 - Log in page invalid email/no password  
 
-  ![login2](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/login2.PNG)  
+  ![login2](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/login2.PNG)  
   
 - Dashboard page  
 
-  ![dash1](https://github.com/Program-Bobby/BB_Finance/blob/master/pictures/dash1.png)  
+  ![dash1](https://github.com/matejavulic/Ebank-Web-App/blob/master/pictures/dash1.png)  
 
 - Transaction details  
 
-  ![dash2](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/dash2.png)  
+  ![dash2](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/dash2.png)  
   
 - No transactions  
 
-  ![dash3](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/dash4.png)  
+  ![dash3](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/dash4.png)  
   
 - Exchange Rates list (dashboard scrolled down)  
 
-  ![dash4](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/dash3.PNG) 
+  ![dash4](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/dash3.PNG) 
   
 - List of all utility payments  
 
-  ![pay1](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/payment1.PNG)
+  ![pay1](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/payment1.PNG)
   
  - New utility payment  
 
-  ![pay2](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/payment2.PNG)  
+  ![pay2](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/payment2.PNG)  
   
  - Utility payment checkout  
   
-  ![pay3](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/payment3.PNG)  
+  ![pay3](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/payment3.PNG)  
   
  - Utility payments list and details  
   
-  ![pay4](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/payment4.PNG)  
+  ![pay4](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/payment4.PNG)  
   
 - Drop-down menu  
 
-  ![ddmenu](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/sedemenu.PNG)  
+  ![ddmenu](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/sedemenu.PNG)  
   
 - Help section  
 
-  ![help](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/help.PNG)
+  ![help](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/help.PNG)
   
 
 # Project details
 ## Logical structure
 From a logical point of view, the system has a 3-tiered REST application architecture. It is a modular client-server architecture that consists of a presentation tier, an application tier and a data tier.
 
-![REST](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/threetierrest2.png)
+![REST](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/threetierrest2.png)
 
 - **Presentation tier**  
 Communicates with other two tiers and holds GUI. It is built with Angular, HTML, CSS, and a TypeScript as a front-end logic. Communication with the other tiers is established through API calls.
@@ -89,15 +89,15 @@ Stores user related information. The data tier consists of a two database server
     
     Examples (left picture - Sign In visibility status, right picture - Recent Transactions visibility status):  
     
-    ![REST](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/fetch.PNG)
-    ![REST](https://github.com/Program-Bobby/BB_Finance/blob/master/pictures/fetching%202.PNG)
+    ![REST](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/fetch.PNG)
+    ![REST](https://github.com/matejavulic/Ebank-Web-App/blob/master/pictures/fetching%202.PNG)
 
   - 2: Match between system and the real world  
      *The system should speak the users' language, with words, phrases and concepts familiar to the user.*  
      
      One way to accomplish this requirement is to use metaphor to symbolically represent abstract idea of a real world experience. For example, opposite arrows icon can be a good real life metaphor for banking transactions:  
      
-      ![REST](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/methaphore.PNG)
+      ![REST](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/methaphore.PNG)
      
   - 3: User control and freedom  
 
@@ -113,7 +113,7 @@ Stores user related information. The data tier consists of a two database server
 
     Stylized door icon can be a good replacement for *Sign out* label:  
     
-    ![REST](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/recognize.PNG) 
+    ![REST](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/recognize.PNG) 
    
   - 7: Flexibility and efficiency of use  
   *Accelerators — unseen by the novice user — may often speed up the interaction for the expert user.*  
@@ -124,11 +124,11 @@ Stores user related information. The data tier consists of a two database server
    
      Example of the closure and similarity principles:  
    
-     ![Gestalt](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/gestalt1.PNG)  
+     ![Gestalt](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/gestalt1.PNG)  
    
      Example of the symmetry principle:  
    
-     ![Gestalt2](https://github.com/Program-Bobby/BB_Finance/blob/master/pictures/gestalt2.PNG)
+     ![Gestalt2](https://github.com/matejavulic/Ebank-Web-App/blob/master/pictures/gestalt2.PNG)
     
   - 8: Aesthetic and minimalist design  
   *Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility*.
@@ -184,12 +184,12 @@ This server has two implemented API services:
 ### MongoDB database
 Database holds data related to a user account and user transactions. User transactions are stored only temporarily in this database (such data should be held in relational database). Also, it is connected with 1-1 relation through foreign key (bankAccount filed) with MySQL table account (private key accountID). In the further development it will be shifted to a MySQL Database, and will be connected through _ id field with customerID table in MySQL. Here is the model of database:  
 
- ![mongoDB](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/mongodb.png)
+ ![mongoDB](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/mongodb.png)
 
 ### MySQL database
 - **Testing database**  
   At the moment, this database is used only for testing purposes. It has 4 tables and it is also connected with MongoDB through foreign   key field clientID. 
-  ![mySql](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/mysql1.png)  
+  ![mySql](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/mysql1.png)  
 
 - **Real-world database (work in progress)**  
   This database has been developed according to the several international standards used in an IT banking systems:  
@@ -197,7 +197,7 @@ Database holds data related to a user account and user transactions. User transa
   - **ISO 20022 Financial Services - Universal financial industry message scheme**  
     As a result of guidelines and schemes presented in this standard, following tables were modeled:  
     
-    ![transactionCode](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/transactnCode.PNG)  
+    ![transactionCode](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/transactnCode.PNG)  
     
     Example:  
     Suppose we want to list last nine possible transaction codes and its corresponding names related to Issued Real-Time Credit Transfer payments (as defined in ISO 20022).  
@@ -230,30 +230,30 @@ Database holds data related to a user account and user transactions. User transa
     
     and would get the next query result:  
     
-    ![queryRes](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/transactionCodes.PNG)  
+    ![queryRes](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/transactionCodes.PNG)  
     
   - **BAI2 codes**  
     ISO 20022 suggests using the BAI code appended to the transaction code. So, the following table is created, and together with
     transaction code table uniquely identifies transaction type:  
     
-    ![transactionType](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/transactionType.PNG)  
+    ![transactionType](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/transactionType.PNG)  
     
   - **ISO 18245:2003 Retail financial services** - Merchant category codes (MCC)  
     This standard was used for the merchant category table modeling. This table stores MCC codes upon which all electronic payments (card payments) are standardized and categorized.  
     
-     ![mcc](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/Merchant.PNG)  
+     ![mcc](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/Merchant.PNG)  
      
    - **ISO 3166-1 alpha-3** - Three-letter country codes   
    
-      ![alpha3](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/Country%20code.PNG)  
+      ![alpha3](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/Country%20code.PNG)  
       
    - **ISO 4217** - Currency designators  
      This standard delineates currency designators, country codes (alpha and numeric), and references to minor units.
      It was used for the creation of currency codes table.
    
-      ![alpha3](https://raw.githubusercontent.com/Program-Bobby/BB_Finance/master/pictures/Currency.PNG)  
+      ![alpha3](https://raw.githubusercontent.com/matejavulic/Ebank-Web-App/master/pictures/Currency.PNG)  
 
-Complete EER diagram of the database can be seen [here](https://github.com/Program-Bobby/BB_Finance/blob/master/pdfs/EER_diagram_database.pdf).
+Complete EER diagram of the database can be seen [here](https://github.com/matejavulic/Ebank-Web-App/blob/master/pdfs/EER_diagram_database.pdf).
 
 # Build
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/`directory. Use the `--prod` flag for a production build. 
